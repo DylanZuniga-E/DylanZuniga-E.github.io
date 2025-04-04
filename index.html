@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;600&display=swap');
+        
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #0d0d0d, #1c1c1c);
+            color: #ffffff;
+        }
+        header {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        #menu-toggle {
+            position: absolute;
+            left: 20px;
+            top: 15px;
+            background: none;
+            border: none;
+            color: #ffffff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        #sidebar {
+            width: 250px;
+            position: fixed;
+            left: -250px;
+            top: 0;
+            height: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+        #sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        #sidebar ul li {
+            padding: 15px;
+            text-align: center;
+        }
+        #sidebar ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+        }
+        .section {
+            padding: 60px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 220px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.1);
+        }
+        a {
+            color: #cccccc;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Professional Portfolio</h1>
+        <button id="menu-toggle">☰</button>
+    </header>
+    
+    <nav id="sidebar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#My Story">My Story</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Values">Values</a></li>
+            <li><a href="#Work experience">Work experience</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="Home" class="section">
+        <h2>Welcome</h2>
+        <p>I’m truly excited to contribute and grow within a company that appreciates hard work and discipline..</p>
+    </section>
+    
+    <section id="My Story" class="section">
+        <h2>My Story</h2>
+        <p>Since I was a child, I’ve always dreamed of helping people. I’ve been passionate about technology and organization, constantly looking for ways to make life easier for those around me. Since my teenage years, I’ve focused on developing skills that allow me to be an efficient and reliable assistant. Today, I’m ready to offer my knowledge and dedication to any company that values responsibility, loyalty, and discipline.</section>
+    
+    <section id="Skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Virtual Assistance</li>
+            <li>Task Management</li>
+            <li>Effective Communication</li>
+            <li>Organization</li>
+            <li>Fluent English</li>
+            <li>Native Spanish</li>
+            <li>Basic Office Skills</li>
+        </ul>
+    </section>
+    
+    <section id="Skills" class="section">
+        <h2>Skills</h2>
+        <p>I am a loyal, responsible, and disciplined person. I always give my best effort in every task assigned to me.</p>
+    </section>
+
+    <section id="Work experience" class="section">
+        <h2>Work experience</h2>
+        <p>In addition, I’m proud to share that I previously founded my own company, where I worked closely with teammates who joined over time. We offered a service similar to that of psychologists, providing a support line where people could call to be heard and supported. Mental health is incredibly important, and I personally managed the calls, created the company’s name, sent emails, scheduled and organized both in-person and online meetings via Google Meet. When appointments were canceled, I also took care of rescheduling them. This experience gave me deep knowledge in management and organization, and greatly strengthened my communication and customer service skills.</p>
+    </section>
+    
+    <section id="At Work Photos" class="section">
+        <h2>At Work Photos</h2>
+        <a href="https://drive.google.com/drive/folders/1uAa0g7mVBbvH-hjxOe39vSN630NkAMLt">Click here</a>
+
+    </section>
+    
+    <style>
+        .gallery {
+            display: flex;
+            flex-direction: column; /* Acomoda las fotos una debajo de otra */
+            align-items: center; /* Centra las fotos */
+            gap: 10px; /* Espacio entre las fotos */
+        }
+        .gallery img {
+            width: 80%; /* Ajusta el tamaño para que no sean muy grandes */
+            max-width: 400px; /* Máximo ancho */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1); /* Sombra ligera */
+        }
+    </style>
+    
+    
+    <section id="Contact" class="section">
+        <h2>Contact</h2>
+        <p>You can email me at: <a href="mailto:dylanzu999@gmail.com">dylanzu999@gmail.com</a></p>
+        <p>You can also message me on WhatsApp below.</p>
+        <a class="whatsapp-link" href="https://wa.me/17282189339?text=Hola%20se%C3%B1or%20Dylan,%20queremos%20contactarte%20para%20trabajar%20contigo" target="_blank">
+            <img src="Logowhatsapp.png" alt="WhatsApp" width="40" height="40">
+            <span style="color: #25D366; font-weight: bold;">WhatsApp</span>
+        </a>
+        
+
+
+    
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            let sidebar = document.getElementById('sidebar');
+            if (sidebar.style.left === "0px") {
+                sidebar.style.left = "-250px";
+            } else {
+                sidebar.style.left = "0px";
+            }
+        });
+        
+        document.addEventListener('click', function(event) {
+            let sidebar = document.getElementById('sidebar');
+            let toggleButton = document.getElementById('menu-toggle');
+            if (!sidebar.contains(event.target) && !toggleButton.contains(event.target)) {
+                sidebar.style.left = "-250px";
+            }
+        });
+    </script>
+</body>
+</html>
